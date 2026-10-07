@@ -1,0 +1,14 @@
+# Wycinamy bazy danych paczek i cache
+**/node_modules/**
+**/__pycache__/**
+**/.next/**
+**/env/**
+**/.env/**
+**/dist/**
+**/build/**
+
+# Wycinamy pliki binarne i logi, żeby nie muliły 5070 Ti
+*.log
+*.exe
+*.dll
+*.so
